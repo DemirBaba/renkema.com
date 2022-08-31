@@ -110,7 +110,7 @@ export default function Introduction({ id }) {
 
   React.useEffect(() => {
     const options = {
-      strings: ["ses"],
+      strings: ["SES"],
       typeSpeed: 50,
       backSpeed: 50,
       startDelay: 1000,
@@ -217,7 +217,7 @@ export default function Introduction({ id }) {
           <a href="https://www.framer.com" target="_blank">
             getiriyoruz.
           </a>
-          Text
+          
         </GridParagraph>
         <SocialsContainer
           variants={socials}
@@ -229,28 +229,28 @@ export default function Introduction({ id }) {
             whileHover="hover"
             text={"Twitter"}
             fill={palette.greys900}
-            url={"https://www.twitter.com/vrenkema"}
+            url={"https://www.twitter.com/voice360agency"}
           ></SocialLink>{" "}
           <SocialLink
             variants={items}
             whileHover="hover"
             text={"Linkedin"}
             fill={palette.greys900}
-            url={"https://www.linkedin.com/in/viktor-renkema-7b3505133/"}
+            url={"https://www.linkedin.com/in/voice360/"}
           ></SocialLink>{" "}
           <SocialLink
             variants={items}
             whileHover="hover"
             text={"Email"}
             fill={palette.greys900}
-            url={"mailto:viktor@renkema.com"}
+            url={"mailto:hello@voice360.agency"}
           ></SocialLink>
           <SocialLink
             variants={items}
             whileHover="hover"
             text={"Github"}
             fill={palette.greys900}
-            url={"https://github.com/viktorrenkema"}
+            url={"https://github.com/voice360"}
           ></SocialLink>
         </SocialsContainer>
         <Link
