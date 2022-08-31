@@ -16,7 +16,7 @@ export default function IndexPage() {
     <LayoutComponent>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Viktor Renkema</title>
+        <title>Voice360 Agency</title>
         <meta
           name="description"
           content="I‘m a front-end developer with an interest in design, motion, and interactivity."
