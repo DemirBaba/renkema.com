@@ -110,7 +110,7 @@ export default function Introduction({ id }) {
 
   React.useEffect(() => {
     const options = {
-      strings: ["front-end web developer"],
+      strings: ["ses"],
       typeSpeed: 50,
       backSpeed: 50,
       startDelay: 1000,
@@ -212,12 +212,12 @@ export default function Introduction({ id }) {
           initial="hidden"
           animate="visible"
         >
-          I’m a <MonospaceSpan ref={el}></MonospaceSpan> with a strong interest
-          in motion design. Previously at {" "}
+          Fikirlerinize <MonospaceSpan ref={el}></MonospaceSpan>
+           {" "}
           <a href="https://www.framer.com" target="_blank">
-            Framer
+            getiriyoruz.
           </a>
-          , helping teams build sites and prototypes.
+          Text
         </GridParagraph>
         <SocialsContainer
           variants={socials}
