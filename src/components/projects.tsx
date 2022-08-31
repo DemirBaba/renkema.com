@@ -75,35 +75,27 @@ export function ProjectsList(props) {
           ref={targetRef}
           variants={container}
           projectlabel={"web app"}
-          projecttitle={"Loaders.io"}
+          projecttitle={"İBB YURT Otomasyon"}
           projectinfo={
-            "Loaders.io is a GUI to generate production code for a React loader component and allowing users to easily customize the style and animation properties."
+            "İBB Yurt için yaptığımız otomasyon sistemi."
           }
-          url={"https://reactloaders.vercel.app/"}
-          githuburl={"https://www.github.com/viktorrenkema"}
+          url={"https://yurt.ibb.istanbul/"}
+          githuburl={"https://www.github.com/voice360"}
           project="loaders"
           id={"loaders"}
         ></Project>
         <Project
           assetBackgroundColor={"#fbf8f8"}
           projectlabel={"website"}
-          projecttitle={"La Dimora"}
+          projecttitle={"Ulaşım İstanbul"}
           projectinfo={
-            "La Dimora is a holiday home located at lake Como in Lombardia, Italy. The website was designed to provide information about renting the home and about the area."
+            "Ulaşım İstanbul için yaptığımız website"
           }
           project="ladimora"
           id={"ladimora"}
-          url={"https://www.ladimora.org/"}
+          url={"https://www.ulaşim.istanbul/"}
         ></Project>
-        <Project
-          project="pulse"
-          assetBackgroundColor={"#fbf8f8"}
-          projectlabel={"PWA"}
-          projecttitle={"Pulse"}
-          projectinfo={
-            "I wanted a workout tracker that offers only the features that I needed, and nothing else. It allows for recording workouts on a daily calendar, including quick links and historic info on how I performed for a given exercise previously."
-          }
-        ></Project>
+        
       </Section>
     </>
   )
