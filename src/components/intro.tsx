@@ -171,20 +171,14 @@ export default function Introduction({ id }) {
               ease: "linear",
             }}
           >
-            <NameH1>Hey, I’m Viktor.</NameH1>
+            <NameH1>Voice360</NameH1>
           </ContainerForName>
           <FlexVertHomePenScript
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.75 }}
             transition={{ duration: 2, delay: 1 }}
           >
-            <PenScript rotate={"rotate(8deg)"} color={palette.blue900}>
-              I enjoy
-            </PenScript>
-            <Arrow
-              style={{ WebkitTransform: "scaleX(-1)", transform: "scaleX(-1)" }}
-              fill={palette.blue900}
-            ></Arrow>
+           
           </FlexVertHomePenScript>
           <ContainerForRoles
             variants={rolesVariants}
