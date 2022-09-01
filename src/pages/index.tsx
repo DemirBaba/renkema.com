@@ -19,15 +19,15 @@ export default function IndexPage() {
         <title>Voice360 Agency</title>
         <meta
           name="description"
-          content="I‘m a front-end developer with an interest in design, motion, and interactivity."
+          content="Reklam Ajansı."
         />
         <meta
           property="og:title"
-          content="Nice to meet you, my name is Viktor!"
+          content="Reklam ve Medya"
         />
         <meta
           property="twitter:description"
-          content="I‘m a front-end developer with an interest in design, motion, and interactivity."
+          content="Reklam Ajansı."
         />
         {/* <meta
           property="og:image"
