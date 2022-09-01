@@ -258,7 +258,7 @@ export default function Introduction({ id }) {
           initial="hidden"
           animate={"visible"}
           text={"View projects"}
-          url={"projects"}
+          url={""} //"projects" to link to the projects page.
           dark={false}
           external={false}
         ></Link>
