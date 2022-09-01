@@ -1,27 +1,27 @@
 export const roles = [
   {
-    title: "web development",
+    title: "Reklam Ajansı",
     gradient: "linear-gradient(-60deg,  #904e95 0%,#904e95, #e73c7e, #ee7752)",
   },
   {
     title: "·",
   },
   {
-    title: "design",
+    title: "Kurumsal Kimlik",
     gradient: "linear-gradient(43deg,  #b0eaed 0%, #c3f2c7 50%, #d9f89f 100% )",
   },
   {
     title: "·",
   },
   {
-    title: "interactivity",
+    title: "Sosyal Medya",
     gradient: "linear-gradient(43deg,  #fa8495 0%,#f3aaab 46%,#eaf0da 100%)",
   },
   {
     title: "·",
   },
   {
-    title: "motion",
+    title: "Etkinlik",
     gradient: "linear-gradient(135deg,#e84c8e ,#fb8254)",
   },
   {
@@ -36,7 +36,7 @@ export const roles = [
     title: "·",
   },
   {
-    title: "creative coding",
+    title: "Tasarım",
     gradient: "linear-gradient(43deg,#4158d0 0%,#c850c0 46%,#ffcc70 100%)",
   },
   {
