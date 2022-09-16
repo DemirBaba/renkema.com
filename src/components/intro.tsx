@@ -214,7 +214,7 @@ export default function Introduction({ id }) {
         >
           Fikirlerinize <MonospaceSpan ref={el}></MonospaceSpan>
            {" "}
-          <a href="https://www.bisiler.com" target="_blank">
+          <a href="" target="_blank">
             getiriyoruz.
           </a>
           
